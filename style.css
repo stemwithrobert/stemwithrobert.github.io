@@ -225,7 +225,33 @@ section {
     text-align: center;
     grid-area: testimonials;
 }
+#booking {
+    background-color: #E5E5E5;
+    justify-items: center;
+    text-align: center;
+    grid-area: booking;
 
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
 #contact {
     grid-area: contact;
 }
@@ -320,12 +346,13 @@ section {
         grid-template-areas:
             "about image"
             "services pricing"
+            "booking booking"
             "testimonials testimonials"
             "contact contact";
         grid-gap: 0 40px;
     }
 
-    #testimonials, #contact {
+    #testimonials, #contact,#booking {
         width: 680px;
     }
 }
